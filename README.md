@@ -1,6 +1,6 @@
-#Snacks For Med Staff
+# Snacks For Med Staff
 
-##This is the Snacks For Med Staff website converted to a series of web pages able to be hosted statically, to reduce cloud compute costs.
+## This is the Snacks For Med Staff website converted to a series of web pages able to be hosted statically, to reduce cloud compute costs.
 
 Full stack web app to market and showcase fundraising efforts in support of front line medical workers during COVID-19.
 
