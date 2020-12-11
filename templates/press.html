@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <!-- header menu - nav -->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid content">
+            <a href="/"><span class="navbar-brand mb-0 h1"><img src="../static/images/lgc.png" alt="#SnacksForMedStaff" width="100"></span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/progress">Progress</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="/suggest">Suggest Hospital</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="/partners">Partners</a>
+                        </li>
+                        <li class="nav-item active">
+                                <a class="nav-link" href="/press">Press</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+
+        <div class="content">
+        
+        
+        <!-- Welcome section, and different columns.   -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h3>Press</h1>  
+                </div>
+                <hr>
+               <!--<div class="col-12">
+                    <p class="lead">Giving Back To The Community During COVID-19</p>
+                </div>-->
+            </div>
+        </div>   
+
+        <div class="padding"></div>
+
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+            
+            <a href="https://news.rice.edu/2020/04/14/campus-kindness-msnacks-for-hospital-workers-and-a-boost-for-businesses-jones-school-students-team-up-to-help-out/" 
+            target="_blank"    
+            class="press-img">
+                <img src="../static/images/Rice.png" 
+                width="50"
+                alt="Rice University News and Media Relations">
+            </a>
+
+            <a href="https://www.houstonchronicle.com/news/houston-texas/houston/article/For-Asian-Americans-pandemic-is-battle-against-15207408.php#photo-19308701" 
+            target="_blank"    
+            class="press-img">
+                <img src="../static/images/HC1.jpg" 
+                width="300"
+                alt="Houston Chronicle">
+            </a>
+
+            <a href="https://www.fox26houston.com/news/snacks-for-med-staff-rice-university-students-send-meals-to-healthcare-workers" 
+            target="_blank"    
+            class="press-img">
+                <img src="../static/images/fts-houston-a.svg" 
+                width="100"
+                alt="Fox 26 Houston">
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=90KnQr-X16w&t=28s" 
+            target="_blank"    
+            class="press-img">
+                <img src="../static/images/emba_1.png" 
+                width="200"
+                alt="Dobbyn Digital Media">
+            </a>
+        </div>
+
+        <div class="padding"></div>
+        <div class="padding"></div>
+
+        </div>
+        
+        <footer class="container-fluid"><div class="footer-copyright text-center py-3 fixed-bottom">© 2020 Coco Ma and Kathy Harcourt</div></footer>
+        
+{% endblock %}
